@@ -11,5 +11,6 @@ end
 
 def print_first_directors_movie_titles
   for each in directors_database[0][:movies] do
-    print each[:title]
+    puts each[:title]
+  end
 end
